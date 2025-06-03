@@ -46,9 +46,6 @@ public class MyThread4 {
 		Thread t1=new Thread(test1);
 		Thread t2=new Thread(test2);
 		Thread t3=new Thread(test3);
-		t1.setName("Add");
-		t2.setName("Print");
-		t3.setName("Bank");
 		t1.start();t2.start();t3.start();
 	}
 }
